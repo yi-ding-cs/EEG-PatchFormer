@@ -264,8 +264,8 @@ if __name__ == "__main__":
     data = data[:, idx, :]  # (batch_size=1, EEG_channel=28, data_points=800)
 
     net = PatchFormer(
-        num_classes=2, input_size=(1, 28, 800), sampling_rate=200, num_T=32, patch_time=10, patch_step=5,
-        dim_head=16, depth=4, heads=16,
+        num_classes=2, input_size=(1, 28, 800), sampling_rate=200, num_T=32, patch_time=20, patch_step=5,
+        dim_head=32, depth=4, heads=32,
         dropout_rate=0.5, idx_graph=num_chan_local_graph)
     print(net)
     print(count_parameters(net))
