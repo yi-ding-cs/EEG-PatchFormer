@@ -1,4 +1,4 @@
-# EEG-PatchFormer
+# [EEG-PatchFormer](https://arxiv.org/abs/2502.03736)
 ## Example of the usage
 ```python
 from EEG_PatchFormer import PatchFormer
