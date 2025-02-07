@@ -44,5 +44,13 @@ out = net(data)
 Please cite our paper if you use our code in your own work:
 
 ```
-
+@misc{ding2025decodinghumanattentivestates,
+      title={Decoding Human Attentive States from Spatial-temporal EEG Patches Using Transformers}, 
+      author={Yi Ding and Joon Hei Lee and Shuailei Zhang and Tianze Luo and Cuntai Guan},
+      year={2025},
+      eprint={2502.03736},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2502.03736}, 
+}
 ```
