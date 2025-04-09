@@ -1,5 +1,6 @@
 # EEG-PatchFormer
 This is the PyTorch implementation of EEG-PatchFormer in our paper:
+
 Ding, Yi, Joon Hei Lee, Shuailei Zhang, Tianze Luo, and Cuntai Guan. "Decoding Human Attentive States from Spatial-temporal EEG Patches Using Transformers." in the 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). PDF availible [here](https://arxiv.org/abs/2502.03736)
 ## Example of the usage
 ```python
